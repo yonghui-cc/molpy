@@ -2,8 +2,8 @@ molpy
 ==============================
 [//]: # (Badges)
 [![Travis Build Status](https://travis-ci.com/yonghui-cc/molpy.svg?branch=master)](https://travis-ci.com/yonghui-cc/molpy.svg?branch=master)
-[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/REPLACE_WITH_OWNER_ACCOUNT/molpy/branch/master)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molpy/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molpy/branch/master)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/yonghui-cc/branch/master?svg=true)](https://ci.appveyor.com/project/yonghui-cc/molpy/branch/master)
+[![codecov](https://codecov.io/gh/yonghui-cc/molpy/branch/master/graph/badge.svg)](https://codecov.io/gh/yonghui-cc/molpy/branch/master)
 
 
 A learning example for best practice
