@@ -5,7 +5,7 @@ A learning example for best practice
 
 # Add imports here
 from .molpy import *
-from . import util
+from .util import *
 # Handle versioneer
 from ._version import get_versions
 versions = get_versions()
