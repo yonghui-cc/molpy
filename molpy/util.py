@@ -5,7 +5,7 @@ def distance(point1, point2):
     """
     Calculate distance between two points
 
-    parameters
+    Parameters
     ---------
     point1 : array_like
     point2 : array_like
@@ -20,6 +20,19 @@ def distance(point1, point2):
     return np.linalg.norm(point1 - point2)
 
 def read_xyz(filename):
+    """
+    Read the molecule
+    
+    Parameters
+    ----------
+    filename : str
+        name of the molecule.xyz
+    
+    Return
+    ------
+    symbols :
+    coords :
+    """
 
     with open(filename, "r") as handle:
         data = handle.readlines()
