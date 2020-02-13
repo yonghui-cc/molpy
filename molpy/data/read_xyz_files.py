@@ -13,7 +13,7 @@ def open_xyz(molecule):
     Return
     ------
     symbols:
-        str
+        list[str]
             The symbol of the molecule
     coords:
         list[float]
@@ -24,11 +24,13 @@ def open_xyz(molecule):
     xyz_file = np.genfromtxt(fname=filename, skip_header=2, dtype='unicode')
     symbols = list(xyz_file[:,0])
     
+
 #    coords = xyz_file[:,1:].astype(np.float)
     coords = xyz_file[:,1:]
 #    
     coords = coords.astype(np.float)
     coords = list(np.mean(coords, axis=0))
+
     return symbols, coords
 
 
