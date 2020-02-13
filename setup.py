@@ -21,7 +21,7 @@ except:
 
 setup(
     # Self-descriptive entries which should always be present
-    name='molpy',
+    name='molpy-demo',
     author='Yonghui Chen',
     author_email='cpuyonghui@gmail.com',
     description=short_description[0],
