@@ -31,6 +31,14 @@ setup(
     cmdclass=versioneer.get_cmdclass(),
     license='MIT',
 
+    #New thing !
+    #add something  about __main__
+    # We can use the molpy-distance to calculate something after install molpy
+    entry_points = {
+        "console_scripts": [
+            'molpy-distance = molpy.cli: get_it',],   # What is it about?
+        },
+
     # Which Python importable modules should be included when your package is installed
     # Handled automatically by setuptools. Use 'exclude' to prevent some specific
     # subpackage(s) from being added, if needed
