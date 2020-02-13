@@ -2,7 +2,7 @@ molpy
 ==============================
 [//]: # (Badges)
 
-[![](https://travis-ci.com/yonghui-cc/molpy.svg?branch=master)](https://travis-ci.com/yonghui-cc/molpy)
+[![Travis Build Status](https://travis-ci.com/yonghui-cc/molpy.svg?branch=master)](https://travis-ci.com/yonghui-cc/molpy)
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/github/yonghui-cc/molpy/branch/master?svg=true)](https://ci.appveyor.com/project/yonghui-cc/molpy/branch/master)
 [![codecov](https://codecov.io/gh/yonghui-cc/molpy/branch/master/graph/badge.svg)](https://codecov.io/gh/yonghui-cc/molpy/branch/master)
 ![](https://img.shields.io/badge/language-python-orange.svg)

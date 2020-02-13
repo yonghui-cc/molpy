@@ -7,6 +7,7 @@ A learning example for best practice
 from .molpy import *
 from . import util
 from . import data
+
 # Handle versioneer
 from ._version import get_versions
 versions = get_versions()
